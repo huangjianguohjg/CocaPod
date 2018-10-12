@@ -15,7 +15,7 @@
 		D70B216E2170905500C5B154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B216D2170905500C5B154 /* main.m */; };
 		D70B21782170905600C5B154 /* CocaPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B21772170905600C5B154 /* CocaPodTests.m */; };
 		D70B21832170905600C5B154 /* CocaPodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B21822170905600C5B154 /* CocaPodUITests.m */; };
-		D70B21922170906500C5B154 /* hjggggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B21912170906500C5B154 /* hjggggViewController.m */; };
+		D70B21962170920300C5B154 /* hjggggViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70B21952170920300C5B154 /* hjggggViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		D70B217E2170905600C5B154 /* CocaPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocaPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70B21822170905600C5B154 /* CocaPodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocaPodUITests.m; sourceTree = "<group>"; };
 		D70B21842170905600C5B154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D70B21902170906500C5B154 /* hjggggViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hjggggViewController.h; sourceTree = "<group>"; };
-		D70B21912170906500C5B154 /* hjggggViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hjggggViewController.m; sourceTree = "<group>"; };
+		D70B21942170920300C5B154 /* hjggggViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hjggggViewController.h; sourceTree = "<group>"; };
+		D70B21952170920300C5B154 /* hjggggViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hjggggViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +104,7 @@
 		D70B215D2170905500C5B154 /* CocaPod */ = {
 			isa = PBXGroup;
 			children = (
+				D70B21932170920300C5B154 /* hjg */,
 				D70B215E2170905500C5B154 /* AppDelegate.h */,
 				D70B215F2170905500C5B154 /* AppDelegate.m */,
 				D70B21612170905500C5B154 /* ViewController.h */,
@@ -113,8 +114,6 @@
 				D70B21692170905500C5B154 /* LaunchScreen.storyboard */,
 				D70B216C2170905500C5B154 /* Info.plist */,
 				D70B216D2170905500C5B154 /* main.m */,
-				D70B21902170906500C5B154 /* hjggggViewController.h */,
-				D70B21912170906500C5B154 /* hjggggViewController.m */,
 			);
 			path = CocaPod;
 			sourceTree = "<group>";
@@ -135,6 +134,15 @@
 				D70B21842170905600C5B154 /* Info.plist */,
 			);
 			path = CocaPodUITests;
+			sourceTree = "<group>";
+		};
+		D70B21932170920300C5B154 /* hjg */ = {
+			isa = PBXGroup;
+			children = (
+				D70B21942170920300C5B154 /* hjggggViewController.h */,
+				D70B21952170920300C5B154 /* hjggggViewController.m */,
+			);
+			path = hjg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +280,7 @@
 			files = (
 				D70B21632170905500C5B154 /* ViewController.m in Sources */,
 				D70B216E2170905500C5B154 /* main.m in Sources */,
-				D70B21922170906500C5B154 /* hjggggViewController.m in Sources */,
+				D70B21962170920300C5B154 /* hjggggViewController.m in Sources */,
 				D70B21602170905500C5B154 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
