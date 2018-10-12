@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "hjgp"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "一个建立pod仓库的简单demo."
 s.description  = <<-DESC
 这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
@@ -19,7 +19,7 @@ s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author             = { "xiaohuang" => "hjgguge@gmail.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/huangjianguohjg/CocaPod.git", :tag => s.version }
-s.source_files  = "Classes", "CocaPod/CocaPod/hjg/*.{h,m}"
+s.source_files  = "Classes", "hjg"
 s.requires_arc = true
 
 end

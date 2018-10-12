@@ -84,6 +84,7 @@
 		D70B21522170905500C5B154 = {
 			isa = PBXGroup;
 			children = (
+				D70B21932170920300C5B154 /* hjg */,
 				D70B215D2170905500C5B154 /* CocaPod */,
 				D70B21762170905600C5B154 /* CocaPodTests */,
 				D70B21812170905600C5B154 /* CocaPodUITests */,
@@ -104,7 +105,6 @@
 		D70B215D2170905500C5B154 /* CocaPod */ = {
 			isa = PBXGroup;
 			children = (
-				D70B21932170920300C5B154 /* hjg */,
 				D70B215E2170905500C5B154 /* AppDelegate.h */,
 				D70B215F2170905500C5B154 /* AppDelegate.m */,
 				D70B21612170905500C5B154 /* ViewController.h */,
